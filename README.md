@@ -3,6 +3,12 @@
 
 Secure, transparent, and decentralized event ticketing platform built on the Algorand blockchain.
 
+## Demo
+
+> **_NOTE:_**  - The demo video is not up to date with the latest code.
+
+[Check out the demo video here](https://www.youtube.com/watch?v=Jvo0XGCm8wE)
+
 ## Overview
 
 This project provides a decentralized and secure platform for event ticketing, leveraging the Algorand blockchain. Users can purchase event tickets using ALGO, the native cryptocurrency of Algorand, ensuring ticket authenticity and fraud prevention through transparent blockchain transactions.
