@@ -30,7 +30,7 @@ This project provides a decentralized and secure platform for event ticketing, l
 - [ ] Sell a ticket
 - [ ] Cancel an event
 
-> **_NOTE:_**  - Create an event, Buy a ticket, Sell a ticket, Cancel an event are comming soon
+> **_NOTE:_**  - Create an event, Sell a ticket, Cancel an event are comming soon
 
 ## Achievements and Key Components
 
