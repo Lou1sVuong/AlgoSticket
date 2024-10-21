@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "AlgoSticket",
+  title: "AlgoTickets",
   description:
     "Secure, transparent, and decentralized event ticketing on the Algorand blockchain.",
 };
