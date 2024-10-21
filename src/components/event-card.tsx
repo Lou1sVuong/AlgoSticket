@@ -36,7 +36,7 @@ export function EventCard({ event }: EventCardProps) {
     transactionSigner,
     wallets,
   } = useWallet();
-  const { accountAddress } = useWalletProvider();
+  const { isConnected, accountAddress, connectWallet } = useWalletProvider();
   async function handleBuyTicket(amount: number) {
     try {
       if (!accountAddress || !activeAddress) {
@@ -109,7 +109,13 @@ export function EventCard({ event }: EventCardProps) {
         <Badge variant="secondary" className="text-lg font-semibold">
           {event.price} ALGO
         </Badge>
-        <Button onClick={() => handleBuyTicket(event.price)}>Buy Ticket</Button>
+        {isConnected ? (
+          <Button onClick={() => handleBuyTicket(event.price)}>
+            Buy Ticket
+          </Button>
+        ) : (
+          <Button onClick={connectWallet}>Buy Ticket</Button>
+        )}
       </CardFooter>
     </Card>
   );
